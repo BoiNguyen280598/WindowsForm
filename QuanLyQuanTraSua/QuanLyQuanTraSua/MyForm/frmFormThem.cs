@@ -16,7 +16,7 @@ namespace QuanLyQuanTraSua.MyForm
 {
     public partial class frmFormThem : Form
     {
-        Entities context = new Entities();
+        Entities3 context = new Entities3();
         public frmFormThem()
         {
             InitializeComponent();

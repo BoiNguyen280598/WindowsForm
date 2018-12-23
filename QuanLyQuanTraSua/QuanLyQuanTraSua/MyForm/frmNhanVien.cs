@@ -17,7 +17,7 @@ namespace QuanLyQuanTraSua
 {
     public partial class frmNhanVien : Form
     {
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
         bool check = true;
         //private BindingSource bs;
         private static int local;
@@ -151,7 +151,7 @@ namespace QuanLyQuanTraSua
                 var query = ("Update NhanVien set TenNV = N'" + txtHoTen.Text + "' ,DiaChi = N'" + txtDiaChi.Text + "',SDT='" + txtSDT.Text + "' where MaNV=N'" + txtID.Text + "'");
                 db.Database.ExecuteSqlCommand(query);
                 db.SaveChanges();
-                Entities a = new Entities();
+                Entities3 a = new Entities3();
                 var lst = a.NhanViens.ToList();
                 dgvListNV.DataSource = lst;
 

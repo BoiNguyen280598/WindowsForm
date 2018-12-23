@@ -18,11 +18,7 @@ namespace QuanLyQuanTraSua.Model
         {
             this.HoaDons = new HashSet<HoaDon>();
         }
-
-        public NhanVien(NhanVien nhanVien)
-        {
-        }
-
+    
         public string MaNv { get; set; }
         public string TenNV { get; set; }
         public string SDT { get; set; }

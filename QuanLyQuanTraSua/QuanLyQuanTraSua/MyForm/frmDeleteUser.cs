@@ -13,7 +13,7 @@ namespace QuanLyQuanTraSua.MyForm
 {
     public partial class frmDeleteUser : DevComponents.DotNetBar.Office2007RibbonForm
     {
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
         public frmDeleteUser()
         {
             InitializeComponent();

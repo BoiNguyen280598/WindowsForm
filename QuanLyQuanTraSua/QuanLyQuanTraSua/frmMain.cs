@@ -14,7 +14,7 @@ namespace QuanLyQuanTraSua
 {
     public partial class frmMain : DevComponents.DotNetBar.Office2007RibbonForm
     {
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
 
         NhanVien nhanVien = new NhanVien();
         public frmMain()
@@ -104,8 +104,7 @@ namespace QuanLyQuanTraSua
 
         private void buttonItem2_Click(object sender, EventArgs e)
         {
-            frmQlyMon ql = new frmQlyMon();
-            ql.Show();
+            
         }
     }
 }

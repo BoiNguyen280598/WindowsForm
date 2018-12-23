@@ -13,7 +13,7 @@ namespace QuanLyQuanTraSua.MyForm
 {
     public partial class frmLogin : DevComponents.DotNetBar.Office2007RibbonForm
     {
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
         public  NhanVien nhanVien = new NhanVien();
         public frmLogin()
         {

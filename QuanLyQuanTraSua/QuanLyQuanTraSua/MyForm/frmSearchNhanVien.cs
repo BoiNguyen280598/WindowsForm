@@ -15,7 +15,7 @@ namespace QuanLyQuanTraSua
 {
     public partial class SearchNhanVien : Form
     {
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
         public SearchNhanVien()
         {
             InitializeComponent();

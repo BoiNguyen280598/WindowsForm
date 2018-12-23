@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities3">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Entities1">
     <EntitySetMapping Name="CTHDs">
-      <EntityTypeMapping TypeName="Model.CTHD">
+      <EntityTypeMapping TypeName="Model1.CTHD">
         <MappingFragment StoreEntitySet="CTHD">
           <ScalarProperty Name="MaHD" ColumnName="MaHD" />
           <ScalarProperty Name="MaMon" ColumnName="MaMon" />
@@ -12,7 +12,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="CTPNs">
-      <EntityTypeMapping TypeName="Model.CTPN">
+      <EntityTypeMapping TypeName="Model1.CTPN">
         <MappingFragment StoreEntitySet="CTPN">
           <ScalarProperty Name="MaPN" ColumnName="MaPN" />
           <ScalarProperty Name="MaMon" ColumnName="MaMon" />
@@ -22,7 +22,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="HoaDons">
-      <EntityTypeMapping TypeName="Model.HoaDon">
+      <EntityTypeMapping TypeName="Model1.HoaDon">
         <MappingFragment StoreEntitySet="HoaDon">
           <ScalarProperty Name="MaHD" ColumnName="MaHD" />
           <ScalarProperty Name="MaNV" ColumnName="MaNV" />
@@ -32,7 +32,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="KhachHangs">
-      <EntityTypeMapping TypeName="Model.KhachHang">
+      <EntityTypeMapping TypeName="Model1.KhachHang">
         <MappingFragment StoreEntitySet="KhachHang">
           <ScalarProperty Name="MaKH" ColumnName="MaKH" />
           <ScalarProperty Name="TenKH" ColumnName="TenKH" />
@@ -42,7 +42,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="LoaiMons">
-      <EntityTypeMapping TypeName="Model.LoaiMon">
+      <EntityTypeMapping TypeName="Model1.LoaiMon">
         <MappingFragment StoreEntitySet="LoaiMon">
           <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
           <ScalarProperty Name="TenMon" ColumnName="TenMon" />
@@ -50,7 +50,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="MonAns">
-      <EntityTypeMapping TypeName="Model.MonAn">
+      <EntityTypeMapping TypeName="Model1.MonAn">
         <MappingFragment StoreEntitySet="MonAn">
           <ScalarProperty Name="MaMon" ColumnName="MaMon" />
           <ScalarProperty Name="TenMon" ColumnName="TenMon" />
@@ -60,7 +60,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="NhanViens">
-      <EntityTypeMapping TypeName="Model.NhanVien">
+      <EntityTypeMapping TypeName="Model1.NhanVien">
         <MappingFragment StoreEntitySet="NhanVien">
           <ScalarProperty Name="MaNv" ColumnName="MaNv" />
           <ScalarProperty Name="TenNV" ColumnName="TenNV" />
@@ -72,7 +72,7 @@
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="PhieuNhaps">
-      <EntityTypeMapping TypeName="Model.PhieuNhap">
+      <EntityTypeMapping TypeName="Model1.PhieuNhap">
         <MappingFragment StoreEntitySet="PhieuNhap">
           <ScalarProperty Name="MaPN" ColumnName="MaPN" />
           <ScalarProperty Name="TenPN" ColumnName="TenPN" />

@@ -13,10 +13,10 @@ namespace QuanLyQuanTraSua.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Entities : DbContext
+    public partial class Entities3 : DbContext
     {
-        public Entities()
-            : base("name=Entities")
+        public Entities3()
+            : base("name=Entities3")
         {
         }
     

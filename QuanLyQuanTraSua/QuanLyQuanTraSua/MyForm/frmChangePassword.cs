@@ -30,7 +30,7 @@ namespace QuanLyQuanTraSua.MyForm
         private DevComponents.DotNetBar.Controls.TextBoxX txtNewPass;
         private DevComponents.DotNetBar.LabelX labelX4;
         private DevComponents.DotNetBar.Controls.TextBoxX txtMaNv;
-        Entities db = new Entities();
+        Entities3 db = new Entities3();
         public frmChangePassword()
         {
             InitializeComponent();
